@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: slotfi64/blog
+  name: git-gateway
   branch: master
-
 publish_mode: editorial_workflow
 media_folder: "static/images"
 public_folder: "/images"
@@ -11,7 +9,6 @@ slug:
   encoding: "ascii"
   clean_accents: true
   sanitize_replacement: "-"
-    
 collections:
   - label: "Posts"
     name: "posts"
