@@ -137,7 +137,7 @@ class SiteNav extends React.Component<SiteNavProps> {
               <Link to="/">Home</Link>
             </li>
             <li role="menuitem">
-              <Link to="">[0Browser](https://0browser.com)</Link>
+              [0Browser](https://0browser.com)
             </li>
           </ul>
         </SiteNavLeft>
