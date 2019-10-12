@@ -52,7 +52,7 @@ const config: WebsiteConfig = {
   title: '0Browser Blog',
   description: '0Browser',
   coverImage: 'img/blog-cover.jpg',
-  logo: 'img/ghost-logo.png',
+  logo: 'img/brand.svg',
   lang: 'en',
   siteUrl: 'https://blog.0browser.com',
   //facebook: 'https://www.facebook.com/ghost',
