@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Test"
+title: "here"
 author: Ghost
 tags: ["Getting Started"]
 image: img/welcome-to-ghost.jpg
