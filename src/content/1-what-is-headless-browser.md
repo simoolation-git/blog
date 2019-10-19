@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is a Headless 🌐 Borwser?"
-author: sisi
+author: Sisi
 tags: ["headless browser", "headless", "browser"]
 image: img/welcome-to-ghost.jpg
 date: "2019-10-18T23:46:37.121Z"
