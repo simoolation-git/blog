@@ -3,12 +3,12 @@ layout: post
 title: "What is a Headless 🌐 Borwser?"
 author: Sisi
 tags: ["headless browser", "headless", "browser"]
-image: img/welcome-to-ghost.jpg
+image: img/blog1.png
 date: "2019-10-18T23:46:37.121Z"
 draft: false
 ---
 
-__What the hell is a Headless 🌐 Browser?!__
+__What the hell is a Headless Browser?!__
 We all know what a web browser is since <a href="https://en.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a> was introduced by Tim Berners-Lee 30 years ago! 
 Its really in the name... a headless browser is a browser with no head! 
 Well, if you consider the GUI the *head* 🤯 in this context!
