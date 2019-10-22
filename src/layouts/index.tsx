@@ -13,14 +13,20 @@ interface IndexProps {
 
 const GlobalStyles = css`
 @font-face {
+  font-family: "Roboto";
+  url("https://fonts.googleapis.com/css?family=Roboto&display=swap"); }
+
+@font-face {
   font-family: "HKGroteskPro";
   font-weight: 400;
-  src: url("../fonts/HK%20Grotesk%20Pro/HKGroteskPro-Regular.woff2") format("woff2"), url("../fonts/HK%20Grotesk%20Pro/HKGroteskPro-Regular.woff") format("woff"); }
+  src: url("../fonts/HKGroteskPro/HKGroteskPro-Regular.woff2") format("woff2"),
+  url("../fonts/HKGroteskPro/HKGroteskPro-Regular.woff") format("woff"); }
 
 @font-face {
   font-family: "HKGroteskPro";
   font-weight: 600;
-  src: url("../fonts/HK%20Grotesk%20Pro/HKGroteskPro-Medium.woff2") format("woff2"), url("../fonts/HK%20Grotesk%20Pro/HKGroteskPro-Medium.woff") format("woff"); }
+  src: url("../fonts/HKGroteskPro/HKGroteskPro-Medium.woff2") format("woff2"),
+  url("../fonts/HKGroteskPro/HKGroteskPro-Medium.woff") format("woff"); }
 
 
   html,
@@ -106,11 +112,11 @@ const GlobalStyles = css`
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
-    font-family: "HKGroteskPro", serif !important;
+    font-family: 'Roboto', HKGroteskPro, sans-serif !important;
   }
   body {
     line-height: 1;
-    font-family: "HKGroteskPro", serif !important;
+    font-family: 'Roboto', HKGroteskPro, sans-serif !important;
   }
   ol,
   ul {
@@ -136,11 +142,10 @@ const GlobalStyles = css`
   }
   html {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Roboto', HKGroteskPro, sans-serif !important;
 
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-family: "HKGroteskPro", serif !important;
   }
   *,
   *:before,
@@ -441,7 +446,7 @@ const GlobalStyles = css`
   h1 {
     margin: 0 0 0.5em 0;
     font-size: 5rem;
-    font-weight: 700;
+    font-weight: 500;
   }
   @media (max-width: 500px) {
     h1 {
@@ -489,7 +494,7 @@ const GlobalStyles = css`
   }
 
   body {
-    background: #f4f8fb;
+    background: #f9fbfd !important;
   }
 `;
 

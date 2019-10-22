@@ -13,7 +13,7 @@ const SiteFooter = css`
   padding-top: 20px;
   padding-bottom: 60px;
   color: #fff;
-  background: ${setLightness('0.0015', colors.darkgrey)};
+  background: #f1f4f8 !important;
 `;
 
 const SiteFooterContent = css`
@@ -21,13 +21,13 @@ const SiteFooterContent = css`
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  color: rgba(255, 255, 255, 0.7);
+  color: #506690 !important;
   font-size: 1.3rem;
   a {
-    color: rgba(255, 255, 255, 0.7);
+    color:  #506690 !important;
   }
   a:hover {
-    color: rgba(255, 255, 255, 1);
+    color:  #506690 !important;
     text-decoration: none;
   }
   @media (max-width: 650px) {
