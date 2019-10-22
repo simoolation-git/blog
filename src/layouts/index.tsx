@@ -12,6 +12,17 @@ interface IndexProps {
 }
 
 const GlobalStyles = css`
+@font-face {
+  font-family: "HKGroteskPro";
+  font-weight: 400;
+  src: url("../fonts/HK%20Grotesk%20Pro/HKGroteskPro-Regular.woff2") format("woff2"), url("../fonts/HK%20Grotesk%20Pro/HKGroteskPro-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "HKGroteskPro";
+  font-weight: 600;
+  src: url("../fonts/HK%20Grotesk%20Pro/HKGroteskPro-Medium.woff2") format("woff2"), url("../fonts/HK%20Grotesk%20Pro/HKGroteskPro-Medium.woff") format("woff"); }
+
+
   html,
   body,
   div,
@@ -95,9 +106,11 @@ const GlobalStyles = css`
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
+    font-family: "HKGroteskPro", serif !important;
   }
   body {
     line-height: 1;
+    font-family: "HKGroteskPro", serif !important;
   }
   ol,
   ul {
@@ -127,6 +140,7 @@ const GlobalStyles = css`
 
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    font-family: "HKGroteskPro", serif !important;
   }
   *,
   *:before,
