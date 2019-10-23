@@ -78,7 +78,7 @@ export const SiteHeader = css`
   padding-bottom: 12px;
   color: #fff;
   /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
-  background: ${darken('0.05', colors.darkgrey)} no-repeat center center;
+  background: #fff !important;
   background-size: cover;
 `;
 
@@ -87,8 +87,8 @@ export const SiteHeaderContent = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10vw 4vw;
-  min-height: 200px;
+  padding: 1vw 4vw;
+  min-height: 100px;
   max-height: 450px;
   text-align: center;
 `;

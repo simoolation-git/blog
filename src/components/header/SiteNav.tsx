@@ -58,15 +58,13 @@ const NavStyles = css`
     display: block;
     margin: 0;
     padding: 0;
-    text-transform: uppercase;
   }
 
   li a {
     display: block;
     margin: 0;
     padding: 10px 12px;
-    color: #fff;
-    opacity: 0.8;
+    color: #111;
   }
 
   li a:hover {
