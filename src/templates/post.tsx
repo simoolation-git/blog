@@ -85,23 +85,19 @@ export const PostFullTitle = styled.h1`
 
 const PostFullImage = styled.figure`
   margin: 0 -10vw -165px;
-  height: 800px;
   background: ${colors.lightgrey} center center;
   background-size: cover;
   border-radius: 5px;
 
   @media (max-width: 1170px) {
     margin: 0 -4vw -100px;
-    height: 600px;
     border-radius: 0;
   }
 
   @media (max-width: 800px) {
-    height: 400px;
   }
   @media (max-width: 500px) {
     margin-bottom: 4vw;
-    height: 350px;
   }
 `;
 
@@ -289,7 +285,7 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
               {(post.frontmatter.image && post.frontmatter.image.childImageSharp) && (
                 <PostFullImage>
                   <Img
-                    style={{ height: '100%' }}
+                    style={{ }}
                     fluid={post.frontmatter.image.childImageSharp.fluid}
                   />
                 </PostFullImage>

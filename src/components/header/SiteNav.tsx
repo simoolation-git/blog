@@ -49,8 +49,9 @@ const SiteNavLeft = styled.div`
 `;
 
 const NavStyles = css`
+  font-size: 1.3em;
   display: flex;
-  margin: 0 0 0 -12px;
+  margin: 0;
   padding: 0;
   list-style: none;
 
