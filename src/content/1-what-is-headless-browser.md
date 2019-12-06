@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is a Headless 🌐 Borwser?"
+title: "What is a Headless 🌐 Browser?"
 author: Sisi
 tags: ["headless browser", "headless", "browser"]
 image: img/blog1.png
@@ -22,6 +22,6 @@ __Why would we want to access web using a headless browser?__
 When we dont care about the GUI, for instance in case of automated tests and scrpaing for website data.
 
 __What is it improving?__
-Not having to load GUI will result in needing less Ram in the process. 
-so weather we are doing automated testing or scraping we can do it faster & cheaper!
+Not having to load GUI will result in needing less ram in the process. 
+so whether we are doing automated testing or scraping we can do it faster & cheaper!
 

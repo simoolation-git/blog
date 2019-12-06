@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\header",
+    "\\src\\components\\icons",
+    "\\src\\components\\subscribe",
+    "\\src\\fonts",
+    "\\src\\layouts",
+    "\\src\\styles",
+    "\\src\\templates"
+  ],
+  "SelectedNode": "\\src\\layouts\\index.tsx",
+  "PreviewInSolutionExplorer": false
+}
